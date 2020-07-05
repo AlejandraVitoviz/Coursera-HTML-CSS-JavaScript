@@ -90,25 +90,21 @@ body {
 }
 
 
-
-
 /*END HOME PAGE*/
 
 /********** Desktop devices only **********/
-@media  (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+@media (min-width: 992px) {
 
 
 }
 
 /********** Tablets devices only **********/
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-  /* Header */
-
-  /* End Header */
+@media (min-width: 768px) and (max-width: 991px) {
+  
 }
 
 /********** Movil devices only **********/
-@media (max-width: @screen-xs-max) {
+@media (max-width: 767px) {
   /* Header */
   .navbar-brand {
     padding-top: 10px;
